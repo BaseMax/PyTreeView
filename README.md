@@ -5,17 +5,23 @@ pyTree is a python class and library to display Tree from array, object, or JSON
 ## Using pyTree
 
 ```python
+from pyTree import pyTree
+
 result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
-# print(result)
-# tree=pyTree().parse(result)
-# print(tree)
 pyTree().display(result)
+```
+Or
+```python
+from pyTree import pyTree
+
+data=pyTree().get(result)
+print(data)
 ```
 
 ## Output
 
 ```
-\├─ imports
+├─ imports
 │  ├─ 0
 │  │  └─ 0
 │  │     ├─ 0: net
