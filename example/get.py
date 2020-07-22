@@ -1,4 +1,4 @@
-from pyTree import pyTree
+from PyTreeView import PyTreeView
 
-data=pyTree().get(result)
+data=PyTreeView().get(result)
 print(data)
