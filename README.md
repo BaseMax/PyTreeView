@@ -1,6 +1,6 @@
-# pyTree
+# PyTree-View
 
-pyTree is a python class and library to display Tree View from array, object, or JSON.
+PyTreeView is a python class and library to display Tree View from array, object, or JSON.
 
 ## Data structure
 
@@ -13,14 +13,14 @@ The following data types are currently supported:
 ## Using pyTree
 
 ```python
-from pyTree import pyTree
+from PyTreeView import PyTreeView
 
 result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
 pyTree().display(result)
 ```
 Or
 ```python
-from pyTree import pyTree
+from PyTreeView import PyTreeView
 
 result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
 data=pyTree().get(result)
