@@ -1,7 +1,7 @@
 # coding=utf8
 # Max Base
-# github.com/basemax/pyTree
-class pyTree():
+# github.com/basemax/PyTreeView
+class PyTreeView():
     offset=0
     lines={}
     def parse(self, items):
