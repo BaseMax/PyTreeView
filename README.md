@@ -1,6 +1,14 @@
 # pyTree
 
-pyTree is a python class and library to display Tree from array, object, or JSON.
+pyTree is a python class and library to display Tree View from array, object, or JSON.
+
+## Data structure
+
+The following data types are currently supported:
+
+- Array, List
+- Dict
+- Value, String, ...
 
 ## Using pyTree
 
