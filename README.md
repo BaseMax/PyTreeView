@@ -2,7 +2,7 @@
 
 PyTreeView is a python class and library to display Tree View from array, object, or JSON.
 
-> Can someone help me to publish this package in pypi? https://pypi.org/project/PyTreeView/
+> Can someone help me to publish this package in pypi? https://github.com/BaseMax/PyTreeView/issues/1
 
 ## Data structure
 
