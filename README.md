@@ -16,14 +16,14 @@ The following data types are currently supported:
 from PyTreeView import PyTreeView
 
 result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
-pyTree().display(result)
+PyTreeView().display(result)
 ```
 Or
 ```python
 from PyTreeView import PyTreeView
 
 result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
-data=pyTree().get(result)
+data=PyTreeView().get(result)
 print(data)
 ```
 
