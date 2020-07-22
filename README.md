@@ -12,23 +12,6 @@ The following data types are currently supported:
 - Dict
 - Value, String, ...
 
-## Using pyTree
-
-```python
-from PyTreeView import PyTreeView
-
-result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
-PyTreeView().display(result)
-```
-Or
-```python
-from PyTreeView import PyTreeView
-
-result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
-data=PyTreeView().get(result)
-print(data)
-```
-
 ## Output
 
 ```
@@ -46,6 +29,23 @@ print(data)
 │        └─ 0: xml
 ├─ statements: []
 └─ module: main
+```
+
+## Using PyTreeView
+
+```python
+from PyTreeView import PyTreeView
+
+result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
+PyTreeView().display(result)
+```
+Or
+```python
+from PyTreeView import PyTreeView
+
+result={'imports': [[['net', 'socket']], [['sys'], ['json'], ['xml']]], 'statements': [], 'module': 'main'}
+data=PyTreeView().get(result)
+print(data)
 ```
 
 ---------
